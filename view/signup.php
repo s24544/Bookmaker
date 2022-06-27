@@ -22,11 +22,11 @@ session_start();
     <h1>Sign up</h1>
     <label for="login" id="login">
         Login:<br>
-        <input type="text" name="login" autocomplete="off" required onkeyup="showError(this.value, 'loginHint')"><br>
+        <input type="text" name="login" autocomplete="off" required><br>
     </label>
     <label for="email" id="email">
         Email:<br>
-        <input type="email" name="email" maxlength="320" autocomplete="off" required onkeyup="showError(this.value, 'emailHint')"><br>
+        <input type="email" name="email" maxlength="320" autocomplete="off" required><br>
     </label>
     <label for="password" id="password">
         Password:<br>

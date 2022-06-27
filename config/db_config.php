@@ -1,5 +1,4 @@
 <?php
-session_start();
 $dbHost = '127.0.0.1';
 $dbName = "bk";
 $dbUser = "root";
