@@ -30,16 +30,6 @@ function printGameForm($db) : void{
 ';
 }
 
-function addTeamToGameForm(){
-    echo "Active games: ";
-    try{
-        
-    }catch (PDOException $error){
-        $_SESSION["status"] = $error->getMessage();
-        header("Location: ../view/adminpanel.php");
-    }
-}
-
 function printMoneyForm() : void{
     echo '<form action="../view/add.php" method="post">User login/email: <input type="text" name="search"><br><input type="submit" value="search"></form><br>';
 }
